@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-pmpa
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0040-tenant/tkrw-pr712-0075-0040-app/devfile-sample-pmpa@sha256:feb848b078939fae7b403cbd0710c9ebf8fa0569890737d404cbeb1616c36648
         name: my-nodejs
         ports:
         - containerPort: 3001
